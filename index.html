@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="BookLand - recomendações de livros para todos os gostos. Encontre sua próxima leitura favorita." />
+  <title>BookLand - Para quem ama ler</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Bootstrap Icons CDN -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <style>
+    /* Smooth scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#"><i class="bi bi-book-half"></i> BookLand</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-house-door"></i> Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-journal-bookmark"></i> Livros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-envelope"></i> Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero -->
+  <header class="custom-hero text-center py-5" role="banner">
+    <div class="container">
+      <h1 class="display-4">Encontre sua próxima leitura favorita</h1>
+      <p class="lead">Recomendações de livros para todos os gostos.</p>
+      <a href="#destaques" class="btn btn-light btn-lg mt-3" role="button">Ver livros em destaque</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Gêneros -->
+    <section id="generos" class="py-5" aria-label="Gêneros populares">
+  <div class="container text-center">
+    <h2 class="mb-4">Gêneros Populares</h2>
+    <div class="row">
+      <div class="col-md-3">
+        <p><i class="bi bi-book-half text-rosa-escuro"></i> Ficção</p>
+      </div>
+      <div class="col-md-3">
+        <p><i class="bi bi-stars text-rosa-escuro"></i> Fantasia</p>
+      </div>
+      <div class="col-md-3">
+        <p><i class="bi bi-heart-fill text-rosa-escuro"></i> Romance</p>
+      </div>
+      <div class="col-md-3">
+        <p><i class="bi bi-search text-rosa-escuro"></i> Mistério</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <div class="container mb-4">
+  <label for="filtro-genero" class="form-label">Filtrar por gênero:</label>
+  <select id="filtro-genero" class="form-select" aria-label="Filtro por gênero">
+    <option value="todos" selected>Todos</option>
+    <option value="Ficção">Ficção</option>
+    <option value="Fantasia">Fantasia</option>
+    <option value="Romance">Romance</option>
+    <option value="Mistério">Mistério</option>
+  </select>
+</div>
+
+ <!-- Livros em Destaque -->
+  <section id="destaques" class="bg-light py-5" aria-label="Livros em destaque">
+      <div class="container">
+        <h2 class="text-center mb-4">Livros em Destaque</h2>
+        <div class="row" id="livros-lista" role="list">
+
+       <!-- Livro 1 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Ficção">
+            <div class="card h-100 shadow-sm">
+              <img src="img/livro1.jpg" class="card-img-top" alt="Capa do livro A Filha dos Rios" />
+              <div class="card-body">
+                <h3 class="card-title h5">A Filha dos Rios – Ilko Minev</h3>
+                <p><strong>Autor:</strong> Ilko Minev</p>
+                <p><strong>Gênero:</strong> Ficção</p>
+                <p class="card-text">Na Amazônia do século 20, Maria é levada de sua vila por Adriano e inicia uma jornada marcada por amor, perdas e resistência. Após sobreviver a uma tragédia, ela luta para criar três crianças sozinha, trabalhando com coragem em diferentes cenários da floresta, incluindo uma draga de ouro comandada por um judeu búlgaro.</p>
+          </div>
+        </div>
+      </article>
+
+       <!-- Livro 2 -->
+       <article class="col-md-4 mb-4" role="listitem" data-genero="Fantasia">
+            <div class="card h-100 shadow-sm">
+              <img src="img/livro2.jpg" class="card-img-top" alt="Capa do livro O Príncipe Cruel" />
+              <div class="card-body">
+                <h3 class="card-title h5">O Príncipe Cruel – Holly Black</h3>
+                <p><strong>Autor:</strong> Holly Black</p>
+                <p><strong>Gênero:</strong> Fantasia</p>
+            <p class="card-text">Jude, uma humana criada no Reino das Fadas após a morte dos pais, sonha em conquistar seu lugar na Corte. Para isso, precisa enfrentar o desprezo dos fadas, especialmente do Príncipe Cardan, e se envolver em perigosas intrigas, revelando um talento inesperado para a traição.</p>
+          </div>
+        </div>
+      </article>
+
+       <!-- Livro 3 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Romance">
+            <div class="card h-100 shadow-sm">
+              <img src="img/livro3.jpg" class="card-img-top" alt="Capa do livro Orgulho e Preconceito" />
+              <div class="card-body">
+                <h3 class="card-title h5">Orgulho e Preconceito – Jane Austen</h3>
+                <p><strong>Autor:</strong> Jane Austen</p>
+                <p><strong>Gênero:</strong> Romance</p>
+            <p class="card-text">Quando Elizabeth Bennet conhece o orgulhoso sr. Darcy, sua antipatia é imediata. Mas conforme segredos vêm à tona, ela descobre que as primeiras impressões podem ser enganosas. Com ironia e inteligência, Jane Austen cria um romance atemporal sobre amor, orgulho e julgamentos precipitados.</p>
+          </div>
+        </div>
+      </article>
+
+       <!-- Livro 4 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Mistério">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro4.jpg" class="card-img-top" alt="Capa do livro A Empregada" />
+          <div class="card-body">
+            <h3 class="card-title h5">A Empregada – Freida McFadden</h3>
+            <p><strong>Autor:</strong> Freida McFadden</p>
+            <p><strong>Gênero:</strong> Mistério</p>
+            <p class="card-text">Millie trabalha para os Winchesters limpando a casa, cuidando da filha e vivendo isolada no sótão. Com um passado conturbado, ela tenta suportar os abusos de Nina, sua chefe instável. Mas conforme os segredos da família vêm à tona, Millie revela que não é quem parece ser... e que é capaz de muito mais do que imaginam.</p>
+          </div>
+        </div>
+      </article>
+
+       <!-- Livro 5 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Ficção">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro5.jpg" class="card-img-top" alt="Capa do livro A Vida Invisível de Addie LaRue" />
+          <div class="card-body">
+            <h3 class="card-title h5">A Vida Invisível de Addie LaRue – V. E. Schwab</h3>
+            <p><strong>Autor:</strong> V. E. Schwab</p>
+            <p><strong>Gênero:</strong> Ficção</p>
+            <p class="card-text">Em 1714, Addie faz um pacto por liberdade: viver eternamente, mas ser esquecida por todos. Por séculos, ela atravessa o tempo invisível. Até que, um dia, alguém se lembra dela. Uma história tocante sobre identidade, memória e o desejo de deixar uma marca no mundo.</p>
+          </div>
+        </div>
+      </article>
+
+       <!-- Livro 6 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Fantasia">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro6.jpg" class="card-img-top" alt="Capa do livro O Circo Mecânico Tresaulti" />
+          <div class="card-body">
+            <h3 class="card-title h5">O Circo Mecânico Tresaulti – Genevieve Valentine</h3>
+            <p><strong>Autor:</strong> Genevieve Valentine</p>
+            <p><strong>Gênero:</strong> Fantasia</p>
+            <p class="card-text">Num mundo pós-apocalíptico, onde as pessoas não tem mais acesso à tecnologias de ponta, uma caravana leva esperança por onde passa. Os artistas são sobreviventes de guerra, que tiveram seus corpos mutilados reconstruídos com complexas estruturas mecânicas.</p>
+          </div>
+        </div>
+      </article>
+
+       <!-- Livro 7 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Romance">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro7.jpg" class="card-img-top" alt="Capa do livro Pessoas Normais" />
+          <div class="card-body">
+            <h3 class="card-title h5">Pessoas Normais – Sally Rooney</h3>
+            <p><strong>Autor:</strong> Sally Rooney</p>
+            <p><strong>Gênero:</strong> Romance</p>
+            <p class="card-text">Connell e Marianne se conhecem no interior da Irlanda e vivem uma relação intensa e conturbada que os acompanha até a universidade em Dublin. Entre encontros e desencontros, a história explora amor, identidade, inseguranças e a dificuldade de se conectar verdadeiramente com o outro, mesmo quando há sentimento.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Livro 8 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Mistério">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro8.jpg" class="card-img-top" alt="Capa do livro A Filha Perfeita" />
+          <div class="card-body">
+            <h3 class="card-title h5">A Filha Perfeita – Lucinda Berry</h3>
+            <p><strong>Autor:</strong> Lucinda Berry</p>
+            <p><strong>Gênero:</strong> Mistério</p>
+            <p class="card-text">Hannah e Christopher adotam Janie, uma menina aparentemente frágil, mas com um passado sombrio. Enquanto ela demonstra doçura ao pai, volta toda sua raiva contra a mãe. Comportamentos cada vez mais perturbadores colocam o casamento à prova e revelam que realizar um sonho pode ter um preço aterrorizante.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Livro 9 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Ficção">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro9.jpg" class="card-img-top" alt="Capa do livro Tudo é Rio" />
+          <div class="card-body">
+            <h3 class="card-title h5">Tudo é Rio – Carla Madeira</h3>
+            <p><strong>Autor:</strong> Carla Madeira</p>
+            <p><strong>Gênero:</strong> Ficção</p>
+            <p class="card-text">Dalva e Venâncio têm suas vidas marcadas por uma tragédia causada pelo ciúme, enquanto Lucy, uma prostituta desejada, cruza seus caminhos e forma um triângulo amoroso intenso. Com linguagem lírica e visceral, o romance flui como um rio... Carregado de perdas, desejos e emoções à flor da pele.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Livro 10 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Fantasia">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro10.jpg" class="card-img-top" alt="Capa do livro Quarta Asa" />
+          <div class="card-body">
+            <h3 class="card-title h5">Quarta Asa – Rebecca Yarros</h3>
+            <p><strong>Autor:</strong> Rebecca Yarros</p>
+            <p><strong>Gênero:</strong> Fantasia</p>
+            <p class="card-text">Violet Sorrengail é forçada a ingressar em uma academia militar onde jovens treinam para se tornarem cavaleiros de dragões. Frágil e desacreditada, ela precisa usar sua inteligência para sobreviver em um ambiente letal, onde a morte é quase certa e a guerra esconde segredos sombrios.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Livro 11 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Romance">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro11.jpg" class="card-img-top" alt="Capa do livro Um Amor Nada Tradicional" />
+          <div class="card-body">
+            <h3 class="card-title h5">Um Amor Nada Tradicional – Heidi Shertok</h3>
+            <p><strong>Autor:</strong> Heidi Shertok</p>
+            <p><strong>Gênero:</strong> Romance</p>
+            <p class="card-text">Prestes a completar 30 anos e com um diagnóstico de infertilidade, Penina aceita um casamento de fachada para ajudar a irmã em apuros. Tudo parece sob controle, até surgir Sam, seu chefe irresistível. Entre dever e desejo, ela encara uma jornada divertida, caótica e cheia de paixão inesperada.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Livro 12 -->
+      <article class="col-md-4 mb-4" role="listitem" data-genero="Mistério">
+        <div class="card h-100 shadow-sm">
+          <img src="img/livro12.jpg" class="card-img-top" alt="Capa do livro Mentirosos" />
+          <div class="card-body">
+            <h3 class="card-title h5">Mentirosos – E. Lockhart</h3>
+            <p><strong>Autor:</strong> E. Lockhart</p>
+            <p><strong>Gênero:</strong> Mistério</p>
+            <p class="card-text">Cadence Sinclair pertence a uma família rica e orgulhosa que passa os verões em uma ilha particular. Após um misterioso acidente, ela retorna à ilha anos depois para juntar as peças de sua memória. Um suspense instigante sobre mentiras, segredos e verdades devastadoras.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+ <!-- Contato -->
+    <section id="contato" class="py-5 text-center" aria-label="Contato">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <p>Quer sugerir um livro ou entrar em contato? <br /> 
+           Envie um e-mail para <a href="mailto:contato@bookland.com" class="text-decoration-none text-dark">
+           contato@bookland.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3" role="contentinfo">
+    <p class="mb-0">&copy; 2025 BookLand. Projeto fictício para fins de portfólio.</p>
+    <p>Feito por <a href="https://github.com/Daniirochas" target="_blank" rel="noopener noreferrer" class="text-white text-decoration-underline">Danielle Rocha</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+  const filtroGenero = document.getElementById('filtro-genero');
+const livros = document.querySelectorAll('#livros-lista article');
+
+filtroGenero.addEventListener('change', () => {
+  const generoSelecionado = filtroGenero.value;
+
+  livros.forEach(livro => {
+    const generoLivro = livro.getAttribute('data-genero');
+    
+    if (generoSelecionado === 'todos' || generoLivro === generoSelecionado) {
+      livro.style.display = '';  // mostra
+    } else {
+      livro.style.display = 'none'; // esconde
+    }
+  });
+});
+
+</script>
+
+</body>
+</html>

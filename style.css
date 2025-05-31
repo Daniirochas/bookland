@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFF0F5;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #FFE6EB;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #B03060;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #E57399;
+  }
+  
+  header {
+    background-color: #FFE6EB;
+    color: #B03060;
+  }
+  
+  header h1,
+  header p {
+    color: #B03060;
+  }
+  
+  header .btn {
+    background-color: #E57399;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  header .btn:hover {
+    background-color: #d85a89;
+  }
+  
+  h1, h2, h3, h5 {
+    color: #B03060;
+  }
+  
+  .card {
+    background-color: #FFF7F9;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .card-title {
+    color: #B03060;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #B03060;
+    color: white;
+    padding: 1rem 0;
+  }
+  .custom-hero {
+    background-color: #FFE6EB; /* Rosa claro pastel */
+    color: #B03060;            /* Rosa escuro elegante */
+  }
+  
+  .custom-hero h1,
+  .custom-hero p {
+    color: #B03060;            /* Mantém contraste nos textos do header */
+  }
+  @media (max-width: 576px) {
+  .card-title {
+    font-size: 1.1rem;
+  }
+  header .btn {
+    width: 100%;
+  }
+}
