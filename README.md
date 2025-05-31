@@ -27,8 +27,9 @@ https://daniirochas.github.io/bookland/
 1. Clone o repositório:
 
 Copiar código
+git clone 
 ```bash
-git clone https://github.com/Daniirochas/bookland.git 
+ https://github.com/Daniirochas/bookland.git 
 `````
 
 2. Acesse a pasta do projeto e abra o arquivo index.html no seu navegador.
@@ -40,7 +41,8 @@ git clone https://github.com/Daniirochas/bookland.git
 
 - Criar uma versão dinâmica usando React ou outra biblioteca JS
 
-###👩‍💻 Sobre a autora
+##👩‍💻 Sobre a autora
+
 Danielle Rocha
 GitHub: @Daniirochas
 
