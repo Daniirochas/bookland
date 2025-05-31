@@ -1,36 +1,44 @@
-# BookLand 📚🌸
+📚🌸 BookLand
+BookLand é um site responsivo e elegante feito especialmente para amantes da leitura. Com uma paleta em tons de rosa pastel e uma interface amigável, o projeto permite explorar gêneros literários e encontrar inspiração para novas leituras.
 
-BookLand é um site responsivo e elegante focado em amantes de livros, com uma paleta em tons de rosa pastel e uma interface amigável para explorar gêneros literários e encontrar novos títulos para ler.
+✨ Funcionalidades
+Navegação simples e intuitiva
 
-## Funcionalidades
+Lista de gêneros populares com ícones ilustrativos
 
-- Navegação simples e intuitiva
-- Lista de gêneros populares com ícones visuais
-- Design responsivo para dispositivos móveis e desktop
-- Uso de Bootstrap para layout e componentes
-- Estilo personalizado com CSS em tons de rosa pastel
+Design responsivo (mobile e desktop)
 
-## Tecnologias usadas
+Layout e componentes com Bootstrap 5
 
-- HTML5
-- CSS3 (com personalização)
-- Bootstrap 5
+Estilo visual personalizado com CSS (rosa pastel 💖)
 
-## Como rodar o projeto localmente
+🛠 Tecnologias utilizadas
+HTML5
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Daniirochas/bookland.git
-Abra o arquivo index.html no seu navegador favorito.
+CSS3 (com personalização)
 
-Próximos passos
-Adicionar página com detalhes de livros (sinopse, autor, capa)
+Bootstrap 5
 
-Implementar sistema de busca
+🚀 Acesse o projeto online
+👉 https://daniirochas.github.io/bookland/
+
+💻 Como rodar o projeto localmente
+Clone o repositório:
+
+bash
+Copiar código
+git clone https://github.com/Daniirochas/bookland.git
+Acesse a pasta do projeto e abra o arquivo index.html no seu navegador.
+
+🔮 Próximos passos
+Adicionar página com detalhes dos livros (sinopse, autor, capa)
+
+Implementar sistema de busca por título/gênero
 
 Criar uma versão dinâmica usando React ou outra biblioteca JS
 
-Autor
-Danielle Rocha - https://github.com/Daniirochas
+👩‍💻 Autora
+Danielle Rocha
+GitHub: @Daniirochas
 
-Obrigado por visitar o BookLand! 🌸📚
+🌸 Obrigada por visitar o BookLand! Boas leituras! 📖✨
