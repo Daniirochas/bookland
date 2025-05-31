@@ -1,4 +1,4 @@
-#📚🌸 BookLand
+# 📚🌸 BookLand
 BookLand é um site responsivo e elegante feito especialmente para amantes da leitura. Com uma paleta em tons de rosa pastel e uma interface amigável, o projeto permite explorar gêneros literários e encontrar inspiração para novas leituras.
 
 ## ✨ Funcionalidades
@@ -22,13 +22,12 @@ Navegação simples e intuitiva
 *🚀 Acesse o projeto online:*
 https://daniirochas.github.io/bookland/
 
-##💻 Como rodar o projeto localmente
+## 💻 Como rodar o projeto localmente
 
 1. Clone o repositório:
 
-
-```bash
 Copiar código
+```bash
 git clone https://github.com/Daniirochas/bookland.git 
 `````
 
@@ -41,8 +40,8 @@ git clone https://github.com/Daniirochas/bookland.git
 
 - Criar uma versão dinâmica usando React ou outra biblioteca JS
 
-### 👩‍💻 Sobre a autora
+###👩‍💻 Sobre a autora
 Danielle Rocha
 GitHub: @Daniirochas
 
-**🌸 Obrigada por visitar o BookLand! Boas leituras! 📖✨
+**🌸 Obrigada por visitar o BookLand! Boas leituras! 📖✨**
