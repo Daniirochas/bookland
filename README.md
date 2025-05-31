@@ -34,15 +34,14 @@ git clone
 
 2. Acesse a pasta do projeto e abra o arquivo index.html no seu navegador.
 
-🔮 Próximos passos
+## 🔮 Próximos passos
 - Adicionar página com detalhes dos livros (sinopse, autor, capa)
 
 - Implementar sistema de busca por título/gênero
 
 - Criar uma versão dinâmica usando React ou outra biblioteca JS
 
-##👩‍💻 Sobre a autora
-
+## 👩‍💻 Sobre a autora
 Danielle Rocha
 GitHub: @Daniirochas
 
