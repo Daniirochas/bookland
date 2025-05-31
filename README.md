@@ -29,7 +29,8 @@ https://daniirochas.github.io/bookland/
 
 ```bash
 Copiar código
-git clone https://github.com/Daniirochas/bookland.git
+git clone https://github.com/Daniirochas/bookland.git 
+`````
 
 2. Acesse a pasta do projeto e abra o arquivo index.html no seu navegador.
 
@@ -44,4 +45,4 @@ git clone https://github.com/Daniirochas/bookland.git
 Danielle Rocha
 GitHub: @Daniirochas
 
-**🌸 Obrigada por visitar o BookLand! Boas leituras! 📖✨**
+**🌸 Obrigada por visitar o BookLand! Boas leituras! 📖✨
