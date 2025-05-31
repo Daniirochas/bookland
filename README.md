@@ -1,44 +1,47 @@
-📚🌸 BookLand
+#📚🌸 BookLand
 BookLand é um site responsivo e elegante feito especialmente para amantes da leitura. Com uma paleta em tons de rosa pastel e uma interface amigável, o projeto permite explorar gêneros literários e encontrar inspiração para novas leituras.
 
-✨ Funcionalidades
+## ✨ Funcionalidades
 Navegação simples e intuitiva
 
-Lista de gêneros populares com ícones ilustrativos
+- Lista de gêneros populares com ícones ilustrativos
 
-Design responsivo (mobile e desktop)
+- Design responsivo (mobile e desktop)
 
-Layout e componentes com Bootstrap 5
+- Layout e componentes utilizando Bootstrap 5
 
-Estilo visual personalizado com CSS (rosa pastel 💖)
+- Estilo visual personalizado com CSS em tons de rosa pastel 💖
 
-🛠 Tecnologias utilizadas
-HTML5
+## 🛠 Tecnologias utilizadas
+- HTML5
 
-CSS3 (com personalização)
+- CSS3 (com personalização)
 
-Bootstrap 5
+- Bootstrap 5
 
-🚀 Acesse o projeto online
-👉 https://daniirochas.github.io/bookland/
+*🚀 Acesse o projeto online:*
+https://daniirochas.github.io/bookland/
 
-💻 Como rodar o projeto localmente
-Clone o repositório:
+##💻 Como rodar o projeto localmente
 
-bash
+1. Clone o repositório:
+
+
+```bash
 Copiar código
 git clone https://github.com/Daniirochas/bookland.git
-Acesse a pasta do projeto e abra o arquivo index.html no seu navegador.
+
+2. Acesse a pasta do projeto e abra o arquivo index.html no seu navegador.
 
 🔮 Próximos passos
-Adicionar página com detalhes dos livros (sinopse, autor, capa)
+- Adicionar página com detalhes dos livros (sinopse, autor, capa)
 
-Implementar sistema de busca por título/gênero
+- Implementar sistema de busca por título/gênero
 
-Criar uma versão dinâmica usando React ou outra biblioteca JS
+- Criar uma versão dinâmica usando React ou outra biblioteca JS
 
-👩‍💻 Autora
+### 👩‍💻 Sobre a autora
 Danielle Rocha
 GitHub: @Daniirochas
 
-🌸 Obrigada por visitar o BookLand! Boas leituras! 📖✨
+**🌸 Obrigada por visitar o BookLand! Boas leituras! 📖✨**
